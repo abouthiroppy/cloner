@@ -39,7 +39,10 @@ $ cloner init js
 ```
 
 ### cloner list
+```
+$ cloner list
+```
 
 ## [TODO]
-- [] test
-- [] setup ci
+- [ ] test
+- [ ] setup ci
