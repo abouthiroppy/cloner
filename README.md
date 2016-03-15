@@ -2,6 +2,9 @@
 
 ### Common files management system
 
+## Install
+`$ npm insall -g file-cloner`
+
 ## Setup
 You create `~/.cloner` and `~/.cloner/default`.   
 Common files in `.cloner` are used by Cloner.   
