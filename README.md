@@ -21,15 +21,16 @@ e.g.
  └── ruby
      └── .gitignore
 
-$ cloner init   
+~/Desktop/test   ᐅ cloner init   
 if you don't specify filename, cloner fetches `~/.cloner/default`.
 
   ~/Desktop/test   ᐅ tree -a
   .
   └── .editorconfig
 
-$ cloner init js
+~/Desktop/test   ᐅ cloner init js
 `default` and `js` are called by cloner.
+
  ~/Desktop/test   ᐅ tree -a
 .
 ├── .editorconfig
