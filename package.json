@@ -1,6 +1,6 @@
 {
   "name": "file-cloner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common files management system",
   "main": "./src/index.js",
   "scripts": {
@@ -10,7 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/abouthiroppy/cloner.git"
   },
-  "author": "about_hiroppy",
+  "keywords": [
+    "cloner",
+    "file",
+    "manager",
+    "es6",
+    "package"
+  ],
+  "author": {
+    "name": "about_hiroppy",
+    "email": "contact@about-hiroppy.com",
+    "url": "http://about-hiroppy.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/abouthiroppy/cloner/issues"
