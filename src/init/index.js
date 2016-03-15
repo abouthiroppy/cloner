@@ -8,7 +8,7 @@ module.exports = (argv) => {
 
   argv = argv.splice(3);
 
-  if (argv.length === 0) argv.push('default');
+  argv.push('default');
 
   return new Promise((resolve, reject) => {
     const promises = argv.map((e) => {

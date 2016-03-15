@@ -24,7 +24,7 @@ program
   .description('put common files')
   .action(() => {
     init(process.argv).then(() => {
-      console.log('!!!!!!')
+      console.log('Completion!')
     });
   });
 
