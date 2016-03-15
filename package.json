@@ -1,0 +1,29 @@
+{
+  "name": "cloner",
+  "version": "0.1.0",
+  "description": "Common files management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abouthiroppy/cloner.git"
+  },
+  "author": "about_hiroppy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abouthiroppy/cloner/issues"
+  },
+  "bin": {
+    "cloner": "./src/index.js"
+  },
+  "homepage": "https://github.com/abouthiroppy/cloner#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.5"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  }
+}
