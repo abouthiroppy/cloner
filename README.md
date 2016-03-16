@@ -41,9 +41,9 @@ if you don't specify filename, cloner fetches `~/.cloner/default`.
 ~/Desktop/test   ᐅ tree -a
 .
 ├── .editorconfig
+├── .eslintignore
 ├── .eslintrc
-└── gulpfile.js
-
+└── .travis.yml
 ```
 
 ### cloner list
