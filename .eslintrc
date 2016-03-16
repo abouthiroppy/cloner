@@ -90,6 +90,5 @@
         "modules": true
     },
     "plugins": [
-        "react"
     ]
 }

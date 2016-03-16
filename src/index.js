@@ -8,7 +8,7 @@ const list = require('./list');
 const init = require('./init');
 
 program
-  .version('0.1.0')
+  .version('0.1.0');
 
 program
   .command('list')
@@ -16,7 +16,7 @@ program
   .action(() => {
     list().then(() => {
       process.exit(0);
-    })
+    });
   });
 
 program
@@ -24,7 +24,7 @@ program
   .description('put common files')
   .action(() => {
     init(process.argv).then(() => {
-      console.log('Completion!')
+      console.log('Completion!');
     });
   });
 
