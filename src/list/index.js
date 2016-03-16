@@ -1,14 +1,14 @@
 'use strict';
 
-const os = require('os');
-const fs = require('fs');
+const os   = require('os');
+const walk = require('../utils/walk');
 
 module.exports = () => {
-  return new Promise(() => {
+  return new Promise((resolve) => {
     const dir = `${os.homedir()}/.cloner`;
 
-    fs.readdir(dir, (err, list) => {
-      console.log(list);
+    walk(dir).then((tree) => {
+      resolve(tree);
     });
   });
 };

@@ -4,23 +4,25 @@ const os = require('os');
 const fs = require('fs-extra');
 
 module.exports = (argv) => {
-  const dir = `${os.homedir()}/.cloner`;
-
-  argv = argv.splice(3);
-
-  argv.push('default');
-
   return new Promise((resolve, reject) => {
+    const dir = `${os.homedir()}/.cloner`;
+
+    argv = argv.splice(3);
+
+    argv.push('default');
+
     const promises = argv.map((e) => {
       return new Promise((resolve) => {
-        fs.copy(`${dir}/${e}`, '.', (err) => {
-          resolve(err);
+        const path = `${dir}/${e}`;
+
+        fs.copy(path, '.', (err) => {
+          resolve(path);
         });
       });
     });
 
-    Promise.all(promises).then(() => {
-      resolve();
+    Promise.all(promises).then((paths) => {
+      resolve(paths);
     });
   });
 };

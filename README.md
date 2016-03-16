@@ -1,5 +1,7 @@
 # Cloner
 
+[![Build Status](https://travis-ci.org/abouthiroppy/cloner.svg?branch=master)](https://travis-ci.org/abouthiroppy/cloner)
+
 ### Common files management system
 
 ## Install
@@ -48,7 +50,17 @@ if you don't specify filename, cloner fetches `~/.cloner/default`.
 
 ### cloner list
 ```
-$ cloner list
+~/Desktop/test   ᐅ cloner list
+./cloner
+├─┬ default
+│ └── .editorconfig
+├─┬ js
+│ ├── .eslintignore
+│ ├── .eslintrc
+│ ├── .travis.yml
+│ └── test
+└─┬ ruby
+  └── .gitignore
 ```
 
 ## [TODO]
