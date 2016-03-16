@@ -14,14 +14,16 @@ When you want to distribute in a scene, you create `~/.cloner/hoge`.
 ```
 e.g.
 ~/.cloner   ᐅ tree -a
- .
- ├── default
- │   └── .editorconfig
- ├── js
- │   ├── .eslintrc
- │   └── gulpfile.js
- └── ruby
-     └── .gitignore
+.
+├── default
+│   └── .editorconfig
+├── js
+│   ├── .eslintignore
+│   ├── .eslintrc
+│   └── .travis.yml
+└── ruby
+    └── .gitignore
+
 ```
 
 ### cloner init
