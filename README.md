@@ -62,7 +62,3 @@ if you don't specify filename, cloner fetches `~/.cloner/default`.
 └─┬ ruby
   └── .gitignore
 ```
-
-## [TODO]
-- [ ] test
-- [ ] setup ci
