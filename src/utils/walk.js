@@ -17,6 +17,8 @@ function createTree(items) {
   };
 
   items.children.map((e) => {
+    if (e.path === '.git') return;
+
     const obj = {
       label: e.path,
       nodes: []
