@@ -2,13 +2,14 @@
 
 'use strict';
 
-const program = require('commander');
+const program  = require('commander');
+const packages = require('../package.json');
 
 const list = require('./list');
 const init = require('./init');
 
 program
-  .version('0.1.2');
+  .version(packages.version);
 
 program
   .command('list')
