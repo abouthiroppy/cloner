@@ -22,6 +22,7 @@ e.g.
 ├── js
 │   ├── .eslintignore
 │   ├── .eslintrc
+│   ├── .gitignore
 │   └── .travis.yml
 └── ruby
     └── .gitignore
